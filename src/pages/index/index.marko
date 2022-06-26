@@ -1,0 +1,42 @@
+import 'bootstrap/scss/bootstrap.scss';
+
+<app-layout/>
+
+<h1>Home</h1>
+<main-menu/>
+
+class {
+  onCreate() {
+    this.state = { count: 0 };
+  }
+  increment() {
+    this.state.count++;
+  }
+}
+
+<div>${state.count}</div>
+<button on-click("increment")>
+  Click me!
+</button>
+
+$ const settings = {
+    "Dark Mode": true,
+    "Fullscreen": false
+  };
+  
+<dl>
+    <for|name, enabled| in=settings>
+      <dt>${name}:</dt>
+      <dd>${enabled ? "on" : "off"}</dd>
+    </for>
+  </dl>
+
+<macro|{ firstName, count }| name="greeting">
+  <p>Hello ${firstName}!
+    <output>You have ${count} new messages.</output>
+  </p>
+</macro>
+
+<greeting firstName="Frank" count=20/>
+ 
+<app-footer/>
