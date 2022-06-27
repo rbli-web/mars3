@@ -2,9 +2,10 @@
 
 # Installation
 
+This will require NPM and Yarn installed.
+
 ```
 yarn install
-yarn parcel index.html --open
 ```
 
 ## Overview
