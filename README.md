@@ -1,21 +1,18 @@
-# Thanks for checking out Marko
+# RBLI MARS
 
 # Installation
 
 ```
-npx @marko/create marko-app --template basic
-cd marko-app
-npm install
-npm run dev
+yarn install
+yarn parcel index.html --open
 ```
 
 ## Overview
 
-This project is powered by `@marko/serve` and `@marko/build`.
+This project is powered by `@parcel-bundler/parcel` and `@janl/mustache.js`.
 
-- Run `npm run dev` to start the development server
-- Run `npm run build` to build a production-ready node.js server
-- Run `npm start` to run the production server
+- Run `yarn parcel index.html --open` to start the development server
+- Run `yarn parcel build index.html` to build a production-ready node.js server
 
 ## Adding Pages
 
