@@ -1,6 +1,8 @@
 import Navigo from "navigo";
 import Mustache from "mustache";
-import 'bootstrap/scss/bootstrap.scss';
+import "bootstrap/scss/bootstrap.scss";
+import "rbli-bootstrap/scss/rbli.scss";
+import "~src/scss/app.scss";
 
 const nav = `
 <header class="pb-3 mb-4 border-bottom">

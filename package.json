@@ -1,5 +1,5 @@
 {
-  "name": "rbli-tommyclub",
+  "name": "rbli-login",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
@@ -8,14 +8,16 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "bootstrap": "5.2.0-beta1",
+    "bootstrap": "git+https://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:x-oauth-basic@github.com/rbli-web/bootstrap.git",
     "mustache": "^4.2.0",
-    "navigo": "8.8.12"
+    "navigo": "8.8.12",
+    "rbli-bootstrap": "git+https://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:x-oauth-basic@github.com/rbli-web/rbli-bootstrap.git"
   },
   "devDependencies": {
     "@babel/core": "7.2.0",
     "parcel": "^2.6.2",
-    "parcel-bundler": "^1.6.1"
+    "parcel-bundler": "^1.6.1",
+    "sass": "^1.53.0"
   },
   "keywords": []
 }
