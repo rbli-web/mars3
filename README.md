@@ -12,8 +12,8 @@ yarn install
 
 This project is powered by `@parcel-bundler/parcel` and `@janl/mustache.js`.
 
-- Run `yarn parcel index.html --open` to start the development server
-- Run `yarn parcel build index.html` to build a production-ready node.js server
+- Run `yarn start` to start the development server
+- Run `yarn build` to build a production-ready node.js server
 
 ## Known Issues
 
